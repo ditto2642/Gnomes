@@ -1,4 +1,13 @@
 body {
   background-color: blue;
+}
+
+h1 {
+  text-align: center;
   color: red;
+}
+
+p {
+    color: red;
+text-align: center;
 }
