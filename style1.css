@@ -1,11 +1,9 @@
-.container {
+
+body {
   width: 800px;
   border: 50px;
   outline-color: red;
   outline-style: dashed;
-}
-
-body {
   background-color: blue;
   font-family: sans-serif;
 }
