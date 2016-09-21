@@ -13,11 +13,11 @@ text-align: center;
 }
 
 a {
-  text-align: center;
+  align-items: center;
   color: red;
 }
 
 img {
-  img-align: center;
+  align-items: center;
   color: red;
 }
