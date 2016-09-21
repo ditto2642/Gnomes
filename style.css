@@ -1,13 +1,13 @@
-#body {
+body {
   background-color: blue;
 }
 
-#h1 {
+h1 {
   text-align: center;
   color: red;
 }
 
-#p {
+p {
     color: red;
 text-align: center;
 }
