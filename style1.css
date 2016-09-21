@@ -1,4 +1,5 @@
 .container {
+  width: 800px;
   outline-color: red;
   outline-style: dashed;
 }
