@@ -4,7 +4,8 @@
 body {
   text-align: center;
   display: block;
-  margin-top: 100;
+  margin-top: 30px;
+  margin-bottom: 30px;
   width: 800px;
   border: 30px;
   margin-left: auto;
@@ -38,4 +39,10 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+#img1 {
+  display: block;
+  margin-left: 0px;
+
 }
