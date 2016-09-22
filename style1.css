@@ -16,6 +16,7 @@ body {
   background-color: lightblue;
   outline-width: 30px;
   font-family: sans-serif;
+
 }
 
 h1 {
@@ -29,6 +30,7 @@ h1 {
 p {
     color: #F6F6F6;
 text-align: center;
+
 }
 
 a {
