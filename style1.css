@@ -4,13 +4,13 @@
 body {
   text-align: center;
   display: block;
-
+  margin-top: 100;
   width: 800px;
   border: 30px;
   margin-left: auto;
   margin-right: auto;
   outline-color: red;
-  outline-style: solid;
+  outline-style: double;
   background-color: lightblue;
   outline-width: 30px;
   font-family: sans-serif;
