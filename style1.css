@@ -2,6 +2,7 @@
   background-color: #2B2B2B;
 }
 body {
+
   text-align: center;
   display: block;
   margin-top: 30px;
@@ -18,6 +19,9 @@ body {
 }
 
 h1 {
+  padding-top: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
   text-align: center;
   color: #F6F6F6;
 }
