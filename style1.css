@@ -1,4 +1,6 @@
-
+.container {
+  background-color: blue;
+}
 body {
   text-align: center;
   display: block;
@@ -8,8 +10,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   outline-color: red;
-  outline-style: dashed;
-  background-color: blue;
+  outline-style: solid;
+  background-color: lightblue;
   outline-width: 30px;
   font-family: sans-serif;
 }
