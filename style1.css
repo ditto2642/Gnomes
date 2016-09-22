@@ -2,8 +2,7 @@
 body {
   text-align: center;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+
   width: 800px;
   border: 30px;
   margin-left: auto;
@@ -11,6 +10,7 @@ body {
   outline-color: red;
   outline-style: dashed;
   background-color: blue;
+  outline-width: 100px;
   font-family: sans-serif;
 }
 
