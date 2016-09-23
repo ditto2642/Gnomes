@@ -39,6 +39,7 @@ a {
   margin-right: auto;
   width: 6em;
   color: #F6F6F6;
+  outline-style:
 }
 
 img {
@@ -47,8 +48,11 @@ img {
   margin-right: auto;
 }
 
-#img1 {
+.oval {
 
-
-
+color: black;
+outline: 1px;
+border-color: pink;
+border-style: double;
+background-color: pink;
 }
