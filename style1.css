@@ -60,3 +60,8 @@ background-color: pink;
 #a1 {
   color: black;
 }
+
+li {
+  display: inline;
+
+}
