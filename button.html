@@ -4,9 +4,14 @@
   <link rel="stylesheet" type="text/css" href="style1.css">
 <script>
 var password;
+var alert = "You will be redirected, do you want to continue"
+funtion createButton() {
+  document.getElementById('out').href= "goat.com";
+  document.getElementById('out').
+}
 function password(password) {
 if(password == ("kittenlumps")) {
-  document.getElementById('out').innerHTML= ("correct password<button onClick='alert('You will be redirected, are you sure')' href='goat.com'>secret surprise</button>");
+
 }
 else {
   document.getElementById('out').innerHTML= "Incorrect password";
@@ -16,12 +21,13 @@ else {
 </script>
 
 </head>
+<title>Button Test</title>
 <div class="container">
 <body>
 <h1>Button test</h1>
 <p><textarea id="text">Enter Password</textarea></p>
 <p><button onClick="password(document.getElementById('text').value)">Submit</button>
-<p id="out"></p>
+<p><button id="out"></button></p>
 
 </body>
 </div>
