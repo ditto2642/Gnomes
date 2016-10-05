@@ -3,14 +3,11 @@
 <head>
   <link rel="stylesheet" type="text/css" href="style1.css">
 <script>
-var password;
-var alert = "You will be redirected, do you want to continue"
-funtion createButton() {
-  document.getElementById('out').href= "goat.com";
-  document.getElementById('out').
-}
+
+
 function password(password) {
 if(password == ("kittenlumps")) {
+  document.getElementById('out').innerHTML= "correct password";
 
 }
 else {
@@ -27,7 +24,7 @@ else {
 <h1>Button test</h1>
 <p><textarea id="text">Enter Password</textarea></p>
 <p><button onClick="password(document.getElementById('text').value)">Submit</button>
-<p><button id="out"></button></p>
+<p id="out"></p>
 
 </body>
 </div>
