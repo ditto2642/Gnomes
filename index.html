@@ -3,6 +3,21 @@
 <head>
   <link id="demo" rel="stylesheet" type="text/css" href="style1.css">
 
+<script>
+
+function styleChange() {
+  if(document.getElementById('demo').href == "style1.css") {
+document.getElementById('demo').href = 'julian.css';
+console.log('should change');
+  }
+else if(document.getElementById('demo').href == "julian.css") {
+document.getElementById('demo').href = 'style1.css';
+}
+}
+
+
+</script>
+
 </head>
 <title>Confused Sacred Gnomes</title>
 <div class="container">
@@ -21,7 +36,7 @@
 <a href="https://www.reddit.com/r/gnomeorder" style:"text-align: center">Official CSG Subreddit<br>
 <img src="gnome.PNG">
 </a>
-<p><button onClick="document.getElementById('demo').href= 'julian.css'">Click to change the page to julian's style</button></p>
+<p><button onClick="styleChange();">Click to change the page's style</button></p>
 <p><textarea id="myText">Enter text</textarea></p>
 <p><button onClick="getElementById('text1').innerHTML=document.getElementById('myText').value">Click Me</button></p>
 <p id="text1"></p>
