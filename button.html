@@ -8,7 +8,8 @@
 function password(password) {
 if(password == ("kittenlumps")) {
   document.getElementById('out').innerHTML= "correct password";
-
+  document.getElementById('link1').href = "index.html";
+  document.getElementById('link1').innerHTML = "click me"
 }
 else {
   document.getElementById('out').innerHTML= "Incorrect password";
@@ -23,9 +24,9 @@ else {
 <body>
 <h1>Button test</h1>
 <p><textarea id="text">Enter Password</textarea></p>
-<p><button onClick="password(document.getElementById('text').value)">Submit</button>
+<p><button onClick="password(document.getElementById('text').value)">Submit</button></p>
 <p id="out"></p>
-
+<p><a id="link1" onclick="alert('you will be redirected')"></a></p>
 </body>
 </div>
 </html>
