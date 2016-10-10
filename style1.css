@@ -50,18 +50,18 @@ img {
 
 .oval {
 
-color: black;
-outline: 1px;
-border-color: pink;
-border-style: double;
-background-color: pink;
+position: fixed;
+left: 0px;
+
+
+background-color: #2B2B2B;
 }
 
 #a1 {
-  color: black;
+  color: white;
 }
 
   li {
-  display: inline;
+
 
 }
