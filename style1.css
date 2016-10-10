@@ -49,7 +49,11 @@ img {
 }
 
 .oval {
-
+outline-style: double;
+outline-color: #DE1B1B;
+outline-width: 30px;
+height: 9999999px;
+width: 200px;
 position: fixed;
 left: 0px;
 
