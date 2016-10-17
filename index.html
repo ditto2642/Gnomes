@@ -14,8 +14,12 @@ else if(document.getElementById('demo').href == "julian.css") {
 document.getElementById('demo').href = 'style1.css';
 }
 }
-
-
+function rand1(max) {
+  return
+}
+function getNum() {
+document.getelementById('num').innerHTML = Math.floor((Math.random() * 10) + 1);
+}
 </script>
 
 </head>
@@ -39,11 +43,14 @@ document.getElementById('demo').href = 'style1.css';
 <a href="https://www.reddit.com/r/gnomeorder" style:"text-align: center">Official CSG Subreddit<br>
 <img src="gnome.PNG">
 </a>
-<a href="reddit.com/r/eastsideprep">Eastsideprep Subreddit<br><img src="https://a.thumbs.redditmedia.com/wQ6R-gzRDpb9AU3-abTjxPvI5M3wZ6LUoDdqVXpDkc0.png"></a>
-<p><button onClick="styleChange();">Click to change the page's style</button></p>
+<a href="http://reddit.com/r/eastsideprep">Eastsideprep Subreddit<br><img src="https://a.thumbs.redditmedia.com/wQ6R-gzRDpb9AU3-abTjxPvI5M3wZ6LUoDdqVXpDkc0.png"></a>
+<!--<p><button onClick="styleChange();">Click to change the page's style</button></p>-->
 <p><textarea id="myText">Enter text</textarea></p>
 <p><button onClick="getElementById('text1').innerHTML=document.getElementById('myText').value">Click Me</button></p>
 <p id="text1"></p>
+<!--<p><textarea id="maxnum">Maximum #</textarea></p>
+<p><button onClick="getNum()">Click Me</button></p>
+<p id="num"></p>-->
 <br>
 <br>
 <br>
