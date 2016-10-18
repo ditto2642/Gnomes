@@ -3,7 +3,7 @@
 <head>
   <link id="demo" rel="stylesheet" type="text/css" href="style1.css">
 
-<script>
+<script language="JavaScript">
 
 function styleChange() {
   if(document.getElementById('demo').href == "style1.css") {
@@ -14,11 +14,10 @@ else if(document.getElementById('demo').href == "julian.css") {
 document.getElementById('demo').href = 'style1.css';
 }
 }
-function rand1(max) {
-  return
-}
+
 function getNum() {
-document.getelementById('num').innerHTML = Math.floor((Math.random() * 10) + 1);
+
+document.getElementById('hi').innerHTML = Math.floor((Math.random() * document.getElementById('maxnum').value) + 1);
 }
 </script>
 
@@ -49,9 +48,12 @@ document.getelementById('num').innerHTML = Math.floor((Math.random() * 10) + 1);
 <p><button onClick="getElementById('text1').innerHTML=document.getElementById('myText').value">Click Me</button></p>
 <p id="text1"></p>
 <!--<p><textarea id="maxnum">Maximum #</textarea></p>
-<p><button onClick="getNum()">Click Me</button></p>
+<p><button onClick="getNum()">Click Me</button></p
 <p id="num"></p>-->
 <br>
+<p>Max Num</p><input type="number" name="Maximum Number" id="maxnum">
+<button onclick="document.getElementById('hi').innerHTML = Math.floor((Math.random() * document.getElementById('maxnum').value) + 1);">Click me</button>
+<p id="hi"></p>
 <br>
 <br>
 <img src="https://unsplash.it/400/200/?random">
