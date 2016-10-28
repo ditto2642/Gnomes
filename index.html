@@ -3,14 +3,14 @@
 <head>
   <link id="demo" rel="stylesheet" type="text/css" href="style1.css">
 
-<script language="JavaScript">
+<script>
 
-function styleChange() {
+function style(hi) {
   if(document.getElementById('demo').href == "style1.css") {
 document.getElementById('demo').href = 'julian.css';
 console.log('should change');
-  }
-else if(document.getElementById('demo').href == "julian.css") {
+  };
+else(document.getElementById('demo').href == "julian.css") {
 document.getElementById('demo').href = 'style1.css';
 }
 }
@@ -43,7 +43,6 @@ document.getElementById('hi').innerHTML = Math.floor((Math.random() * document.g
 <img src="gnome.PNG">
 </a>
 <a href="http://reddit.com/r/eastsideprep">Eastsideprep Subreddit<br><img src="https://a.thumbs.redditmedia.com/wQ6R-gzRDpb9AU3-abTjxPvI5M3wZ6LUoDdqVXpDkc0.png"></a>
-<!--<p><button onClick="styleChange();">Click to change the page's style</button></p>-->
 <p><textarea id="myText">Enter text</textarea></p>
 <p><button onClick="getElementById('text1').innerHTML=document.getElementById('myText').value">Click Me</button></p>
 <p id="text1"></p>
@@ -51,8 +50,8 @@ document.getElementById('hi').innerHTML = Math.floor((Math.random() * document.g
 <p><button onClick="getNum()">Click Me</button></p
 <p id="num"></p>-->
 <br>
-<p>Min Num:<input type="number" id="minnum"><br>Max Num:<input type="number" name="Maximum Number" id="maxnum">
-<button onclick="document.getElementById('hi').innerHTML = Math.floor((Math.random() * (document.getElementById('maxnum').value - document.getElementById('minnum').value + 1) + document.getElementById('minnum').value));">Generate Random Number</button></p>
+<p>><br>Max Num:<input type="number" name="Maximum Number" id="maxnum">
+<button onclick="document.getElementById('hi').innerHTML = Math.floor((Math.random() * (document.getElementById('maxnum').value) + 1));">Generate Random Number</button></p>
 <p id="hi"></p>
 <br>
 <br>
