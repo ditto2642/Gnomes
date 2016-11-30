@@ -2,11 +2,14 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="style1.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js">
+
+  </script>
 <script>
 
 
 function password(password) {
-if(password == ("pornisneat")) {
+if(password == (crypto-js.AES.decrypt(document.getElementById('mes').value, ("hey")))) {
   document.getElementById('out').innerHTML= "correct password";
 
   document.getElementById('link1').innerHTML = "click me";
