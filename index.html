@@ -76,7 +76,7 @@ var query = "https://api.imgur.com/3/gallery/search/?q=" + term;
 <br>
 <br>
 <p>Imgur Search</p>
-<textarea id="term">Search term</textarea><button onclick="var term = document.getElementById('term').replace(/\s+/g, '-');
+<textarea id="term">Search term</textarea><button onclick="var term = document.getElementById('term');
 var query = 'https://api.imgur.com/3/gallery/search/?q=' + term;
   document.getElementById('imgsrch').src = $.ajax({
       url: query,
