@@ -76,17 +76,7 @@ var query = "https://api.imgur.com/3/gallery/search/?q=" + term;
 <br>
 <br>
 <p>Imgur Search</p>
-<textarea id="term">Search term</textarea><button onclick="var term = document.getElementById('term').replace(/\s+/g, '-');
-var query = 'https://api.imgur.com/3/gallery/search/?q=' + term;
-  document.getElementById('imgsrch').src = $.ajax({
-      url: query,
-      type: 'GET',
-      dataType: 'json',
-      headers: {
-      Authorization: 'Client-ID ' + '9720b6c75210077',
-      },
-      success: function(data) {return data.data[Math.floor(Math.random() * data.data.length)].link;},
-      error: function() { console.log('There was an error.'); },});">Search</button>
+<textarea id="term">Search term</textarea><button onclick="imgsrch();">Search</button>
 <img id="imgsrch" src="https://unsplash.it/400/200/?random">
 <p>placeholder image</p>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
